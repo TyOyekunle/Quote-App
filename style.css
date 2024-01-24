@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+.container {
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  background-color: yellow;
+  border-radius: 20px 20px 0 0;
+  height: 50px;
+  text-align: center;
+  
+}
+nav h1{
+    padding: auto;
+}
+.content {
+  width: 80%;
+  height: 100%;
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+ 
+}
+h1 {
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+margin-top: 100px;
+}
+
+blockquote {
+    color: green;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    width: 60%;
+    margin: auto;
+ }
+ blockquote:hover{
+    color: blue;
+ }
+ blockquote h1 {
+    font-size: 4rem;
+ }
+ blockquote p {
+    font-style: italic;
+    margin-bottom: 0;
+ }
+ 
+ blockquote p::before,
+ blockquote p::after {
+    content: "“";
+    font-family: Georgia;
+    font-size: 8rem;
+    margin: -2rem 0 0 -4rem;
+    position: absolute;
+    opacity: 0.5;
+ }
+ 
+ blockquote p::after {
+    content: "”";
+    margin: -1rem -4rem 0 0;
+ }
+ 
+ blockquote cite {
+    font-size: 1.5rem;
+ }
