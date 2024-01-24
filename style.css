@@ -5,7 +5,7 @@ body {
   background-color: grey;
 }
 .container {
-  background-color: white;
+   background-color: white;
   border-radius: 20px;
   width: 80%;
   height: 1000px;
@@ -20,15 +20,27 @@ nav {
   
 }
 nav h1{
-    padding: auto;
+    padding-top: 10px;
+
 }
 .content {
   width: 80%;
-  height: 100%;
+  height: 80%;
   padding-top: 20px;
-  display: grid;
-  grid-template-rows: 1fr 2fr;
- 
+  /* display: grid;
+  grid-template-rows: 1fr 2fr; */
+  /* margin: auto; */
+  margin: 50px auto ;
+  border-radius: 10px;
+  border-style: 5px dotted black;
+   background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+  
+   position:relative
+  
+}
+.upper_section{
+   margin-top: 30px;
+   border-style: 5px dotted black;
 }
 h1 {
   text-align: center;
@@ -37,13 +49,32 @@ h1 {
 font-weight: bolder;
 margin-top: 100px;
 }
+h1:hover{
+   color: red;
 
+}
+.lower-section{
+  
+   border-style: 5px dotted black;
+   border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  
+}
+
+.quote-body{
+    background-color: greenyellow;
+    margin:auto;
+    border-radius: 10px;
+}
 blockquote {
     color: green;
     font-family: Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     width: 60%;
     margin: auto;
+    height: 60%;
+    
  }
  blockquote:hover{
     color: blue;
@@ -72,5 +103,6 @@ blockquote {
  }
  
  blockquote cite {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
